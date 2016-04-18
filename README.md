@@ -4,7 +4,7 @@
 
 A Travis CI test using Node.js, Express.js and Jasmine-Node
 
-
+Project deployed to [Heroku](https://travis-ci-node-test.herokuapp.com) via Travis CI
 
 
 
