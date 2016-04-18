@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jasmine-node spec --verbose"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BideoWego/travis-ci-node-test.git"
+  },
   "author": "Bideo Wego <bideowego@gmail.com>",
   "license": "MIT",
   "dependencies": {
