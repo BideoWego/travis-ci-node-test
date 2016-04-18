@@ -1,12 +1,9 @@
----
 language: node_js
 node_js:
-  - "5"
-  - "5.1"
+- '5'
+- '5.1'
 deploy:
   provider: heroku
   app: travis-ci-node-test
   api_key:
-    secure: ''
-  on:
-    repo: bideowego/travis-ci-node-test
+    secure: t0Xfv19vdCEGGXF6tbt2WhahRgHfoNSnRKdYTJkno1pqqEDbG97rOCNEKB11oLk/o0Y1yhkAguDREBQQx2etrqvJnb8SnJcel1p9x3duQgTaxqHHFj7aofZeMWACSbijO3YHDl6Hb0/mWZ0u1YxCQfbsu+bMhfYSvFSq9+IedMFwUCsz5FvZx9ElCcULi35BXnJtUgXbByq18U0adRsIGSss1l/Q3A8blbM2VchizaXlyMznYaP+gxEiB8tspBb+sLgfeckXKMqgI0tWGVk1kIJwYwXmrmUMEj8KfLZrwhjYdYL9kNu2qGb/3rpxuE/Yao4wjv39TwUbZlaKYrexsdBYKN6FSSI/C56s9/KlRhyhe9zTET5QdDjDXxgupo+lcaYFuiHP6nExljD2D41MY/Z3tki3UXO3RQOuHIf9KwW5D66KNnSYUlxfu2JnnJNytLVLeBjYfO+USQxZv+PBRL7NSoKAXgddlCKqGK8IXSkTeMSrYDuYt7k8grOxsOW1qXr3CaVpBnAZuc2z/gMZPwWij5bT5u1ljfxeL88xlHGRWQXxnaFOH43l9JMzH4PXo9KiON6UqUBsR5EIAJpUwn0mIwRKwhl+O0MxQ1ktSCWB4TB86DW17d3iqQWDo6E2d3zAasYwL84ld08cY+HeHZCOEOAO087k+X/M8Wlbbxs=
