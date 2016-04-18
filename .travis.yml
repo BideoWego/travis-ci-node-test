@@ -3,3 +3,10 @@ language: node_js
 node_js:
   - "5"
   - "5.1"
+deploy:
+  provider: heroku
+  app: travis-ci-node-test
+  api_key:
+    secure: ''
+  on:
+    repo: bideowego/travis-ci-node-test
