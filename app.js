@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-  response.send('Hello World!');
+  response.send('Hello Travis CI!');
 });
 
 
