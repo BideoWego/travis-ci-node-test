@@ -25,9 +25,9 @@ describe('App', function() {
     });
   });
 
-  it('matches Hello World!', function(done) {
+  it('matches Hello Travis CI!', function(done) {
     request.get(baseUrl, function(error, response, body) {
-      expect(body).toMatch(/Hello World!/);
+      expect(body).toMatch(/Hello Travis CI!/);
       done();
     });
   });
