@@ -4,7 +4,8 @@
   "description": "A Travis CI test",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine-node spec --verbose"
+    "test": "jasmine-node spec --verbose",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
